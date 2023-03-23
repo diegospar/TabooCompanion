@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TabooCompanion</string>
+
+    <!-- Home Screen -->
+    <string name="btn_teams">Generar equipos</string>
+
+    <!-- Teams Screen -->
+    <string name="teams_title">Añade participantes</string>
+    <string name="teams_btn_add">Nuevo</string>
+    <string name="teams_btn_continue">Generar equipos</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_bg"
+    tools:context=".home.ui.HomeScreenFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/logo"
+            android:layout_width="@dimen/logo_width"
+            android:layout_height="@dimen/logo_height"
+            android:src="@drawable/logo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="@dimen/margin_24"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_teams"
+            style="@style/PeachBtn"
+            android:theme="@style/PeachBtn"
+            android:textAppearance="@style/BtnTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_teams"
+            android:layout_marginHorizontal="@dimen/margin_64"
+            android:layout_marginTop="@dimen/margin_64"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/logo" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
